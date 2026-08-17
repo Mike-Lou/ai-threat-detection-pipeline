@@ -1,0 +1,8 @@
+# Default ignored files
+__pycache__/
+*.pth
+*.json
+.env
+.venv/
+.idea/
+

@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2026-08-13 11:21:05",
+        "row_index": 3,
+        "score": 233284.71875,
+        "threshold": 233284.71875,
+        "severity": "low",
+        "message": "Anomaly detected at row 3"
+    },
+    {
+        "timestamp": "2026-08-13 11:21:05",
+        "row_index": 5,
+        "score": 24381304.0,
+        "threshold": 233284.71875,
+        "severity": "high",
+        "message": "Anomaly detected at row 5"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "version": "1.0",
+    "saved_at": "2026-08-17 10:45:50",
+    "numeric_cols": [
+        "bytes_in",
+        "bytes_out",
+        "packets",
+        "errors"
+    ]
+}
