@@ -24,6 +24,7 @@ It demonstrates a complete end-to-end workflow: ingestion → preprocessing → 
 
 ## 🧩 Architecture Overview
 
+```text
 +-----------------------+
 |   Log Sources         |
 |-----------------------|
@@ -32,17 +33,17 @@ It demonstrates a complete end-to-end workflow: ingestion → preprocessing → 
 | NetFlow               |
 | Windows Event Logs    |
 +-----------+-----------+
-|
-v
+            |
+            v
 +-----------------------+
 |   Data Loaders        |
 | cloudtrail_loader.py  |
 | syslog_loader.py      |
 | netflow_loader.py     |
-| windows_event_loader.py
+| windows_event_loader.py|
 +-----------+-----------+
-|
-v
+            |
+            v
 +-----------------------+
 |   Pipeline            |
 | pipeline.py           |
@@ -50,26 +51,25 @@ v
 | - feature extraction  |
 | - inference           |
 +-----------+-----------+
-|
-v
+            |
+            v
 +-----------------------+
 |   ML Model (PyTorch)  |
 | model.py / model_io.py|
 +-----------+-----------+
-|
-v
+            |
+            v
 +-----------------------+
 |   Alerts              |
-| alerts.py / alerts.json
+| alerts.py / alerts.json|
 +-----------+-----------+
-|
-v
+            |
+            v
 +-----------------------+
 |   FastAPI Server      |
 | api_server.py         |
 +-----------------------+
 
----
 
 ## ⚙️ Installation
 
